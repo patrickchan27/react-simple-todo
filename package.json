@@ -1,5 +1,5 @@
 {
-  "name": "react-task-tracker",
+  "name": "react-simple-todo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
