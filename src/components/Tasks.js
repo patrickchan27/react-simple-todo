@@ -1,6 +1,7 @@
 import Task from "./Task";
 
 const Tasks = ({ tasks, onDelete, onToggle }) => {
+
   return (
     <>
       {tasks.map((task) => (
@@ -10,7 +11,8 @@ const Tasks = ({ tasks, onDelete, onToggle }) => {
           onDelete={onDelete}
           onToggle={onToggle}
         />
-      ))}
+      )
+      )}
     </>
   );
 };
